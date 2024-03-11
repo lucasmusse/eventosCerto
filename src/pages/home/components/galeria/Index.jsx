@@ -22,7 +22,7 @@ export function Galeria() {
     <GaleriaLayout id='galeria'>
       
       <h1>Galeria</h1>
-        <Swiper slidesPerView={2} pagination={{ clickable: true }} navigation  spaceBetween={20} className="slider">
+        <Swiper slidesPerView={3} pagination={{ clickable: true }} navigation  spaceBetween={20} className="slider">
         
           {data.map((item) => (
             <SwiperSlide key={item.id}>
