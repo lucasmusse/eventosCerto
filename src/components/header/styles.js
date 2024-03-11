@@ -18,14 +18,31 @@ export const HeaderMenu = styled.div`
   display: flex;
 
   a {
+    position:relative;
     text-decoration: none;
-    color: black;
+    color: #000;
     cursor: pointer;
+    margin: 12px;
     padding: 16px;
-    transition: all ease 0.2s;
+    transition: all .8s;
+    padding-bottom: 3px;
 
-    &:hover {
-      transform: scale(1.05);
+    
+    &::before{
+      content: "";
+      position : absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background-color: #FFEBD6;
+      transition: width .8s;
+    }
+    &:hover::before{
+      width: 100%;
+    }
+    &.active::before{
+      width: 100%;
     }
   }
 `;
