@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { ServicesContainer } from "./components/servicesList/Index";
-import { MainContainer } from "./styles";
+import {  MainContainer } from "./styles";
+
 
 
 export function Services() {
