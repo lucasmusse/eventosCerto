@@ -7,6 +7,9 @@ export const MainContainer = styled.section`
   row-gap: 68px;
 
   font-family: "Roboto", sans-serif;
+
+  
+  
 `;
 
 export const MainContent = styled.section`
@@ -15,6 +18,14 @@ export const MainContent = styled.section`
   justify-content: center;
   align-items: center;
   row-gap: 68px;
+
+  h2{
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+  }
   
 `;
 

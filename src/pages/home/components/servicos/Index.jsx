@@ -1,4 +1,4 @@
-import { MainContainer, MainContent, Card, Divider } from "./styles";
+import { MainContainer, MainContent, Card, Divider, SectionTitle } from "./styles";
 import { Link } from "react-router-dom";
 
 
@@ -35,7 +35,7 @@ export function Servicos() {
   return (
     <MainContainer id="servicos">
       
-      <h2>Nossos Serviços</h2>
+      <SectionTitle>Nossos Serviços</SectionTitle>
       <Divider src={divider}/>
 
       <MainContent>

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.section`
-  
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 46px;
   padding: 4vw;
@@ -56,11 +56,19 @@ export const Card = styled.div`
   }
 `;
 
-
 export const Divider = styled.img`
   display: block;
-  margin:0 auto;
+  margin: 0 auto;
 
   height: 40px;
   width: 264px;
+`;
+
+export const SectionTitle = styled.h2`
+  
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+  
 `;

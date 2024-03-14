@@ -12,6 +12,10 @@ export const MainContainer = styled.section`
 
 export const MainTitle = styled.h2`
     text-align: center;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
 `
 
 export const MainContent = styled.p`
@@ -49,3 +53,5 @@ export const Divider = styled.img`
   height: 40px;
   width: 264px;
 `;
+
+

@@ -33,3 +33,11 @@ export const Divider = styled.img`
   width: 264px;
 `;
 
+
+export const MainTitle = styled.h2`
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+`

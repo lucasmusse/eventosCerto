@@ -1,5 +1,5 @@
 
-import { Divider, MainContainer, MainContent } from "./styles";
+import { Divider, MainContainer, MainContent, MainTitle } from "./styles";
 import divider from '../../assets/divider.png'
 
 
@@ -18,7 +18,7 @@ export function Contato(){
 
   return (
     <MainContainer id="contato">
-      <h2>Entre em contato!</h2>
+      <MainTitle>Entre em contato!</MainTitle>
       <Divider src={divider}/>
       <p>Você pode solicitar um orçamento deixando uma mensagem abaixo.</p>
 

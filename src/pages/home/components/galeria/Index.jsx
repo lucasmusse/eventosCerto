@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Divider, GaleriaLayout, GaleryImage } from "./styles";
+import { Divider, GaleriaLayout, GaleryImage, SectionTitle } from "./styles";
 
 import imagem1 from "../../../../assets/imagem1.jpeg";
 import imagem2 from "../../../../assets/imagem2.jpeg";
@@ -23,7 +23,7 @@ export function Galeria() {
   return (
     <GaleriaLayout id='galeria'>
       
-      <h1>Galeria</h1>
+      <SectionTitle>Galeria</SectionTitle>
       <Divider src={divider} alt="" />
         <Swiper slidesPerView={2} pagination={{ clickable: true }} navigation  spaceBetween={20} className="slider">
         
