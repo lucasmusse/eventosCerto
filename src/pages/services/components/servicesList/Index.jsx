@@ -26,7 +26,7 @@ export function ServicesContainer() {
   if (userID === 1) {
     return (
       <MainContent>
-        <Image src={Matrim} alt="" />
+        
         <h2>Assessoria de Eventos</h2>
         <Service
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -46,7 +46,7 @@ export function ServicesContainer() {
   if (userID === 2) {
     return (
       <MainContent>
-        <Image src={Casamento} alt="" />
+        
         <h2>Montagem de Layout Visual do Evento</h2>
         <Service
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -67,7 +67,7 @@ export function ServicesContainer() {
   if (userID === 3) {
     return (
       <MainContent>
-        <Image src={Corp} alt="" />
+        
         <h2>Análise Finenceira do Evento</h2>
         <Service
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -88,7 +88,7 @@ export function ServicesContainer() {
   if (userID === 4) {
     return (
       <MainContent>
-        <Image src={Aniver} alt="" />
+        
         <h2>Estruturação de Eventos Autorais</h2>
         <Service
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."

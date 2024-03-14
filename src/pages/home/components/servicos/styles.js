@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.section`
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +9,7 @@ export const MainContainer = styled.section`
   gap: 46px;
   padding: 4vw;
 
-  background-color: #FFEBD6;
+  background-color: #ffebd6;
 `;
 
 export const MainContent = styled.section`
@@ -19,7 +20,7 @@ export const MainContent = styled.section`
   align-content: center;
   gap: 22px;
   row-gap: 60px;
-  max-width: 1000px;
+  max-width: 1200px;
 `;
 
 export const Card = styled.div`
@@ -53,4 +54,13 @@ export const Card = styled.div`
     padding: 6px 0;
     border-radius: 6px;
   }
+`;
+
+
+export const Divider = styled.img`
+  display: block;
+  margin:0 auto;
+
+  height: 40px;
+  width: 264px;
 `;

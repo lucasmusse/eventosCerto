@@ -8,10 +8,19 @@ export const GaleriaLayout = styled.div`
     margin: 2rem;
     font-size: 1.5rem;
   }
+`;
 
-  img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-  }
+export const GaleryImage = styled.img`
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+`;
+
+export const Divider = styled.img`
+  display: block;
+  margin:0 auto;
+  margin-bottom: 50px;
+
+  height: 40px;
+  width: 264px;
 `;

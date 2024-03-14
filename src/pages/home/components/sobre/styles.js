@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.section`
-
+    
     display: flex;
     flex-direction: column;
     
@@ -40,3 +40,12 @@ export const TeamCard = styled.div`
     }
 
 `
+
+
+export const Divider = styled.img`
+  display: block;
+  margin:0 auto;
+
+  height: 40px;
+  width: 264px;
+`;
