@@ -1,5 +1,4 @@
 
-
 import { MainContent, Image } from "./styles";
 
 import { Service, ServiceInvert } from "../servicesLayout/Index";
@@ -7,13 +6,8 @@ import { Service, ServiceInvert } from "../servicesLayout/Index";
 import imagem1 from "../../../../assets/imagem1.jpeg";
 import imagem2 from "../../../../assets/imagem2.jpeg";
 import imagem3 from "../../../../assets/imagem3.jpeg";
-
-import Aniver from "../../../../assets/anivercario.png";
 import Bodas from "../../../../assets/bodas.png";
-import Casamento from "../../../../assets/casamento.png";
 import Chas from "../../../../assets/chas.png";
-import Corp from "../../../../assets/corporativos.png";
-import Matrim from "../../../../assets/matrimonial.png";
 
  
 

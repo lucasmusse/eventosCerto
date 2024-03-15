@@ -10,13 +10,7 @@ export const MainContainer = styled.section`
     padding: 4vw;
 `
 
-export const MainTitle = styled.h2`
-    text-align: center;
-    font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.5rem;
-`
+
 
 export const MainContent = styled.p`
     text-align: center;
@@ -46,12 +40,5 @@ export const TeamCard = styled.div`
 `
 
 
-export const Divider = styled.img`
-  display: block;
-  margin:0 auto;
-
-  height: 40px;
-  width: 264px;
-`;
 
 

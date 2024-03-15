@@ -1,13 +1,11 @@
-import { MainContainer, MainContent, Card, Divider, SectionTitle } from "./styles";
+import { MainContainer, MainContent, Card } from "./styles";
 import { Link } from "react-router-dom";
-
+import { Divider } from "../../../../components/divider/Index";
 
 import Casamento from "../../../../assets/casamento.png";
 
 import Corp from "../../../../assets/corporativos.png";
 import Matrim from "../../../../assets/matrimonial.png";
-
-import divider from "../../../../assets/divider.png";
 
 const services = [
   { id: 1, img: Matrim, title: "Assessoria de Eventos", link: "/servicos/1" },
@@ -34,9 +32,8 @@ const services = [
 export function Servicos() {
   return (
     <MainContainer id="servicos">
-      
-      <SectionTitle>Nossos Serviços</SectionTitle>
-      <Divider src={divider}/>
+      <h2>Nossos Serviços</h2>
+      <Divider />
 
       <MainContent>
         {services.map((item) => {
@@ -46,9 +43,7 @@ export function Servicos() {
 
               <div>
                 <h3>{item.title}</h3>
-                <Link to={item.link}>
-                  Saber Mais
-                </Link>
+                <Link to={item.link}>Saber Mais</Link>
               </div>
             </Card>
           );

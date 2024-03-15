@@ -22,4 +22,17 @@ body, input, textarea, button{
     font-size: 1rem;
 
 }
+
+
+h2{
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem; 
+}
+
+
+
 `;
+
