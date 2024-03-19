@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.section`
-  height: 80vh;
+  
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -55,7 +55,3 @@ export const Card = styled.div`
     border-radius: 6px;
   }
 `;
-
-
-
-

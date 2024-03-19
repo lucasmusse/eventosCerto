@@ -9,7 +9,7 @@ export function Footer() {
     <MainContainer>
       <MainContent>
         <ContactItem>
-          <img src={Whats} alt="" />
+          <img src={Whats} alt="WhatsApp" />
           <p>
             <a href="https://api.whatsapp.com/send?phone=5547996053569">
               (47) 9 9605-3569
@@ -17,7 +17,7 @@ export function Footer() {
           </p>
         </ContactItem>
         <ContactItem>
-          <img src={Email} alt="" />
+          <img src={Email} alt="Email" />
           <p>event.assessoriaonline@gmail.com</p>
         </ContactItem>
         <ContactItem>
@@ -30,7 +30,7 @@ export function Footer() {
         </ContactItem>
       </MainContent>
 
-      <img src={Logo} alt="" />
+      <img src={Logo} alt="Instagram" />
     </MainContainer>
   );
 }

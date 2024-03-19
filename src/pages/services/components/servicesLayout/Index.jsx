@@ -1,19 +1,23 @@
 import { ServiceSection, ServiceSectionInvert } from "./styles";
 
-export function Service(props) {
+
+
+
+export function Service({ text, img }) {
+  
   return (
     <ServiceSection>
-      <img src={props.img} alt="" />
-      <p>{props.text}</p>
+      <img src={img} alt="" />
+      <p>{text}</p>
     </ServiceSection>
   );
 }
 
-export function ServiceInvert(props) {
+export function ServiceInvert({ text, img }) {
   return (
     <ServiceSectionInvert>
-      <img src={props.img} alt="" />
-      <p>{props.text}</p>
+      <img src={img} alt="" />
+      <p>{text}</p>
     </ServiceSectionInvert>
   );
 }

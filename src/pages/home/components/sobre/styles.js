@@ -8,6 +8,7 @@ export const MainContainer = styled.section`
     align-items: center;
     gap: 46px;
     padding: 4vw;
+    background-color: #ffebd6;
 `
 
 

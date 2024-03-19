@@ -1,36 +1,36 @@
+import { MainContainer, MainContent, TeamContainer, TeamCard } from "./styles";
+import { Divider } from "../../../../components/divider/Index";
+import Avatar2 from "../../../../assets/avatar2.avif";
 
-
-import { MainContainer, MainContent, TeamContainer, TeamCard } from './styles';
-import {Divider} from '../../../../components/divider/Index'
-import Avatar2 from '../../../../assets/avatar2.avif'
-
-
-export function About(){
-    return (
-        <MainContainer id="sobreNos">
-            
-            <h2>Sobre nós</h2>
-            <Divider/>
-            <MainContent>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis cumque, nihil optio sequi itaque nemo! Illum at, laborum nulla magni voluptatem iste, fugiat labore provident nostrum delectus sit? Tenetur?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse deserunt delectus non dolorem eaque. Alias culpa aliquid corporis dolore officiis ex natus cum, placeat, esse facere ipsam. Molestias, cupiditate?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis facilis pariatur tempora veritatis nihil minus necessitatibus consectetur rem modi quos sed quaerat, non, eius repellat sit fuga possimus reprehenderit.
-            </MainContent>
-            <TeamContainer>
-                <TeamCard>
-                    <img src={Avatar2} alt="Membro da equipe" />
-                    <p><b>Julia Lenzi Dietrich</b></p>
-                    <p>Assessora de Eventos</p>
-                </TeamCard>
-                <TeamCard>
-                    <img src={Avatar2} alt="Membro da equipe" />
-                    <p><b>Jordana Lenzi</b></p>
-                    <p>Assistente e Administrativo</p>
-                </TeamCard>
-            </TeamContainer>
-        </MainContainer>
-
-
-    )
+export function About() {
+  return (
+    <MainContainer id="sobreNos">
+      <h2>Sobre nós</h2>
+      <Divider />
+      <MainContent>
+        Atuamos no ramo de eventos desde 2020, já fizemos muitos eventos. No
+        início da nossa jornada nosso nicho de trabalho era cerimonial. Mas com
+        o passar dos anos, desenvolvemos uma paixão no ramo de assessoria e
+        montagem do layout do evento. Nosso objetivo é proporcionar uma
+        experiência única e momentos incríveis nesse processo. Organizar e
+        criar, é nossa especialidade.
+      </MainContent>
+      <TeamContainer>
+        <TeamCard>
+          <img src={Avatar2} alt="Membro da equipe" />
+          <p>
+            <b>Julia Lenzi Dietrich</b>
+          </p>
+          <p>Assessora de Eventos</p>
+        </TeamCard>
+        <TeamCard>
+          <img src={Avatar2} alt="Membro da equipe" />
+          <p>
+            <b>Jordana Lenzi</b>
+          </p>
+          <p>Assistente e Administrativo</p>
+        </TeamCard>
+      </TeamContainer>
+    </MainContainer>
+  );
 }
-
